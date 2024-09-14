@@ -88,8 +88,13 @@ Isso instalará todas as dependências necessárias para rodar tanto o backend q
 No backend, crie um arquivo `.env` com as seguintes variáveis:
 
 ```
-DATABASE_URL=<sua-url-do-supabase>
-JWT_SECRET=<sua-chave-secreta-JWT>
+PORT='your-port'
+
+SUPABASE_PROJECT_ID='your-supabase-project-id'
+SUPABASE_URL='your-supabase-url'
+SUPABASE_ANON_KEY='your-supabaase-anon-key'
+
+JWT_SECRET='your-jwt-secret'
 ```
 
 ### 5. Rodando a Aplicação
